@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Estudo";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Estudo</title>
+</head>
+<body>
+    <div>
+        <h1>Aluno</h1>
+        <h1>@ViewBag.Mens</h1>
+        <h1>@TempData["Text"]</h1>
+        <h4>@Html.ActionLink("Google", "Google", "Aula")</h4>
+    </div>
+</body>
+</html>

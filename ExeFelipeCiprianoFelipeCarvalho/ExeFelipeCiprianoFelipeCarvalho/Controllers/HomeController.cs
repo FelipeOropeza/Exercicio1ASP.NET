@@ -22,8 +22,8 @@ namespace ExeFelipeCiprianoFelipeCarvalho.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
+            ViewData["Cont"] = "Contato";
+            TempData["Text"] = "O MVC é um padrão de desenvolvimento muito utilizado no mundo web é conhecido por 'forçar' o programador a separar as responsabilidades.";
             return View();
         }
     }
